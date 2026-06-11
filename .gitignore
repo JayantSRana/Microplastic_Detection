@@ -1,0 +1,13 @@
+node_modules/
+dist/
+__pycache__/
+*.pyc
+.venv/
+.env
+.DS_Store
+backend/data/captures/*
+backend/data/sessions/*.db
+backend/data/exports/*
+!backend/data/captures/.gitkeep
+!backend/data/sessions/.gitkeep
+!backend/data/exports/.gitkeep

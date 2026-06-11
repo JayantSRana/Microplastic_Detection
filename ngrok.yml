@@ -1,0 +1,10 @@
+version: "2"
+authtoken: 3DOJpNMO2D5mb2IjKnVxHPtprqp_roMs5uehyoLri7UrQsHa
+tunnels:
+  app:
+    proto: http
+    addr: 5173
+    # This will also need backend on same URL - use with nginx or configure frontend to use backend tunnel
+  api:
+    proto: http
+    addr: 8000
